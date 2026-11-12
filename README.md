@@ -12,3 +12,6 @@ Dane użytkownika przechowuje localStorage. Nie ma automatycznej synchronizacji 
 Wgraj zawartość tego katalogu do nowego repozytorium z gałęzią `main`. W Settings → Pages wybierz Source: GitHub Actions. Workflow `.github/workflows/pages.yml` publikuje stronę po pushu. Alternatywnie wybierz Deploy from a branch → main → / (root); żadne budowanie nie jest potrzebne.
 
 Strona offline działa po pierwszym pełnym otwarciu przez HTTPS (lub localhost). Zewnętrzne mapy, bilety i fonty wymagają internetu; bez fontów strona korzysta z fontów systemowych. W nowej wersji zmień nazwę cache w sw.js. Bez geolokalizacji — Google Maps może samodzielnie poprosić o lokalizację.
+
+## Aktualizacja 12.11.2026
+Plan dla dwojga: spokojne wieczory, dziewięć propozycji jedzenia/kawy/deserów, filtry według dnia i lokalne zapisy „Chcemy spróbować”. Dane lokali i linki źródłowe w food.js. Środa uwzględnia zameldowanie od 15:00 oraz przechowanie 1 walizki i 2 plecaków. Przechowalnia, stoliki i bilety pozostają propozycjami bez rezerwacji. Nowe pozycje zachowują stare identyfikatory planu; usunięty punkt wieczorny nie jest zaliczany do nowej propozycji romantycznej.
